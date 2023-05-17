@@ -1,0 +1,39 @@
+<diagram program="umletino" version="15.1"><zoom_level>10</zoom_level><element><id>UMLGeneric</id><coordinates><x>210</x><y>80</y><w>100</w><h>30</h></coordinates><panel_attributes>_Administrador_</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLGeneric</id><coordinates><x>600</x><y>80</y><w>100</w><h>30</h></coordinates><panel_attributes>_Frontend_</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLGeneric</id><coordinates><x>950</x><y>80</y><w>100</w><h>30</h></coordinates><panel_attributes>_Backend_</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>250</x><y>100</y><w>30</w><h>710</h></coordinates><panel_attributes>lt=.</panel_attributes><additional_attributes>10;10;10;690</additional_attributes></element><element><id>Relation</id><coordinates><x>640</x><y>100</y><w>30</w><h>700</h></coordinates><panel_attributes>lt=.</panel_attributes><additional_attributes>10;10;10;680</additional_attributes></element><element><id>Relation</id><coordinates><x>990</x><y>100</y><w>30</w><h>700</h></coordinates><panel_attributes>lt=.</panel_attributes><additional_attributes>10;10;10;680</additional_attributes></element><element><id>UMLGeneric</id><coordinates><x>250</x><y>120</y><w>20</w><h>640</h></coordinates><panel_attributes>
+bg=yellow</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>90</x><y>100</y><w>180</w><h>40</h></coordinates><panel_attributes>lt=&lt;-
+Abre la web</panel_attributes><additional_attributes>160;20;10;20</additional_attributes></element><element><id>UMLGeneric</id><coordinates><x>640</x><y>120</y><w>20</w><h>70</h></coordinates><panel_attributes>
+bg=red</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>260</x><y>100</y><w>400</w><h>50</h></coordinates><panel_attributes>lt=&lt;-
+Pulsar pendiente 
+ de moderación </panel_attributes><additional_attributes>380;20;10;20</additional_attributes></element><element><id>Relation</id><coordinates><x>260</x><y>400</y><w>170</w><h>80</h></coordinates><panel_attributes>lt=&lt;-
+ Actualización
+ de datos</panel_attributes><additional_attributes>10;60;70;60;70;10;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>650</x><y>110</y><w>360</w><h>50</h></coordinates><panel_attributes>lt=&lt;-
+Pedir lista de
+ objetos sin moderar</panel_attributes><additional_attributes>340;20;10;20</additional_attributes></element><element><id>UMLGeneric</id><coordinates><x>990</x><y>120</y><w>20</w><h>70</h></coordinates><panel_attributes>
+bg=red</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>650</x><y>170</y><w>360</w><h>50</h></coordinates><panel_attributes>lt=&lt;-
+Devuelve listado
+ de objetos sin moderar</panel_attributes><additional_attributes>10;20;340;20</additional_attributes></element><element><id>UMLGeneric</id><coordinates><x>640</x><y>220</y><w>20</w><h>60</h></coordinates><panel_attributes>
+bg=red</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>260</x><y>260</y><w>400</w><h>50</h></coordinates><panel_attributes>lt=&lt;-
+Añade la vista al 
+tabcontrol</panel_attributes><additional_attributes>10;20;380;20</additional_attributes></element><element><id>UMLGeneric</id><coordinates><x>640</x><y>500</y><w>20</w><h>30</h></coordinates><panel_attributes>
+bg=red</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>650</x><y>210</y><w>180</w><h>80</h></coordinates><panel_attributes>lt=&lt;-
+Genera una
+vista de inserción
+de los datos</panel_attributes><additional_attributes>10;60;60;60;60;10;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>260</x><y>310</y><w>140</w><h>80</h></coordinates><panel_attributes>lt=&lt;-
+ Revisión 
+ de datos</panel_attributes><additional_attributes>10;60;70;60;70;10;10;10</additional_attributes></element><element><id>UMLFrame</id><coordinates><x>200</x><y>470</y><w>490</w><h>150</h></coordinates><panel_attributes>Opt
+--
+
+Si el contenido requiere 
+demasiados cambios para ajustarse 
+a las normas de la comunidad</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>260</x><y>480</y><w>400</w><h>40</h></coordinates><panel_attributes>lt=&lt;&lt;-
+Rellenar el disclaimer de rechazo</panel_attributes><additional_attributes>380;20;10;20</additional_attributes></element><element><id>UMLGeneric</id><coordinates><x>990</x><y>530</y><w>20</w><h>120</h></coordinates><panel_attributes>
+bg=red</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>650</x><y>510</y><w>360</w><h>40</h></coordinates><panel_attributes>lt=&lt;-
+Setear como rechazado</panel_attributes><additional_attributes>340;20;10;20</additional_attributes></element><element><id>Relation</id><coordinates><x>260</x><y>570</y><w>400</w><h>40</h></coordinates><panel_attributes>lt=&lt;-
+Pulsar botón de rechazado</panel_attributes><additional_attributes>380;20;10;20</additional_attributes></element><element><id>UMLGeneric</id><coordinates><x>640</x><y>590</y><w>20</w><h>20</h></coordinates><panel_attributes>
+bg=red</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>650</x><y>580</y><w>360</w><h>40</h></coordinates><panel_attributes>lt=&lt;-
+Setear como aceptado</panel_attributes><additional_attributes>340;20;10;20</additional_attributes></element><element><id>UMLGeneric</id><coordinates><x>640</x><y>640</y><w>20</w><h>50</h></coordinates><panel_attributes>
+bg=red</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>650</x><y>620</y><w>360</w><h>40</h></coordinates><panel_attributes>lt=&lt;-
+Devolver como aceptado</panel_attributes><additional_attributes>10;20;340;20</additional_attributes></element><element><id>Relation</id><coordinates><x>260</x><y>660</y><w>400</w><h>50</h></coordinates><panel_attributes>lt=&lt;-
+Mostrar mensaje de
+ cambios realizados</panel_attributes><additional_attributes>10;20;380;20</additional_attributes></element><element><id>Relation</id><coordinates><x>260</x><y>690</y><w>160</w><h>80</h></coordinates><panel_attributes>lt=&lt;-
+ Pulsar botón
+ de verificar</panel_attributes><additional_attributes>10;60;70;60;70;10;10;10</additional_attributes></element></diagram>
