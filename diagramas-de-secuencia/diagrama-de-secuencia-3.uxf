@@ -1,0 +1,45 @@
+<diagram program="umletino" version="15.1"><zoom_level>10</zoom_level><help_text>Space for diagram notes</help_text><element><id>UMLGeneric</id><coordinates><x>180</x><y>100</y><w>100</w><h>30</h></coordinates><panel_attributes>_Usuario_</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLGeneric</id><coordinates><x>400</x><y>100</y><w>100</w><h>30</h></coordinates><panel_attributes>_Frontend_</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLGeneric</id><coordinates><x>650</x><y>100</y><w>100</w><h>30</h></coordinates><panel_attributes>_Backend_</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>220</x><y>120</y><w>30</w><h>750</h></coordinates><panel_attributes>lt=.</panel_attributes><additional_attributes>10;10;10;730</additional_attributes></element><element><id>Relation</id><coordinates><x>440</x><y>120</y><w>30</w><h>740</h></coordinates><panel_attributes>lt=.</panel_attributes><additional_attributes>10;10;10;720</additional_attributes></element><element><id>Relation</id><coordinates><x>690</x><y>120</y><w>30</w><h>750</h></coordinates><panel_attributes>lt=.</panel_attributes><additional_attributes>10;10;10;730</additional_attributes></element><element><id>Relation</id><coordinates><x>20</x><y>130</y><w>220</w><h>40</h></coordinates><panel_attributes>lt=&lt;-
+Abre la web</panel_attributes><additional_attributes>200;20;10;20</additional_attributes></element><element><id>UMLGeneric</id><coordinates><x>220</x><y>150</y><w>20</w><h>680</h></coordinates><panel_attributes>
+bg=yellow</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>230</x><y>130</y><w>230</w><h>40</h></coordinates><panel_attributes>lt=&lt;-
+OnLoad()</panel_attributes><additional_attributes>210;20;10;20</additional_attributes></element><element><id>UMLGeneric</id><coordinates><x>440</x><y>150</y><w>20</w><h>80</h></coordinates><panel_attributes>
+bg=red</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>450</x><y>150</y><w>260</w><h>50</h></coordinates><panel_attributes>lt=&lt;-
+Pide listado
+personajes</panel_attributes><additional_attributes>240;20;10;20</additional_attributes></element><element><id>UMLGeneric</id><coordinates><x>690</x><y>170</y><w>20</w><h>40</h></coordinates><panel_attributes>
+bg=red</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>450</x><y>190</y><w>260</w><h>50</h></coordinates><panel_attributes>lt=&lt;-
+Devuelve listado
+personajes</panel_attributes><additional_attributes>10;20;240;20</additional_attributes></element><element><id>Relation</id><coordinates><x>230</x><y>210</y><w>230</w><h>50</h></coordinates><panel_attributes>lt=&lt;-
+Crea databinding,
+lo agrega a la tabla</panel_attributes><additional_attributes>10;20;210;20</additional_attributes></element><element><id>Relation</id><coordinates><x>230</x><y>260</y><w>230</w><h>40</h></coordinates><panel_attributes>lt=-&gt;&gt;
+Filtra personajes</panel_attributes><additional_attributes>10;20;210;20</additional_attributes></element><element><id>UMLGeneric</id><coordinates><x>440</x><y>280</y><w>20</w><h>70</h></coordinates><panel_attributes>
+bg=red</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>230</x><y>330</y><w>230</w><h>50</h></coordinates><panel_attributes>lt=-&gt;&gt;
+Modifica databinding
+según filtros</panel_attributes><additional_attributes>210;20;10;20</additional_attributes></element><element><id>UMLFrame</id><coordinates><x>150</x><y>260</y><w>340</w><h>120</h></coordinates><panel_attributes>loop
+--
+
+Cambia los filtros</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>230</x><y>390</y><w>230</w><h>50</h></coordinates><panel_attributes>lt=-&gt;&gt;
+Pulsa el personaje
+elegido</panel_attributes><additional_attributes>10;20;210;20</additional_attributes></element><element><id>UMLGeneric</id><coordinates><x>440</x><y>410</y><w>20</w><h>170</h></coordinates><panel_attributes>
+bg=red</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>450</x><y>400</y><w>260</w><h>50</h></coordinates><panel_attributes>lt=&lt;-
+Solicita datos
+del personaje</panel_attributes><additional_attributes>240;20;10;20</additional_attributes></element><element><id>UMLGeneric</id><coordinates><x>690</x><y>420</y><w>20</w><h>50</h></coordinates><panel_attributes>
+bg=red</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>450</x><y>450</y><w>260</w><h>50</h></coordinates><panel_attributes>lt=&lt;-
+Entrega los
+datos</panel_attributes><additional_attributes>10;20;240;20</additional_attributes></element><element><id>Relation</id><coordinates><x>450</x><y>480</y><w>180</w><h>80</h></coordinates><panel_attributes>lt=&lt;-
+Genera una vista
+para los datos</panel_attributes><additional_attributes>10;60;70;60;70;10;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>230</x><y>540</y><w>230</w><h>60</h></coordinates><panel_attributes>lt=&lt;-
+Añade la vista
+al tabcontrol
+y lo muestra</panel_attributes><additional_attributes>10;20;210;20</additional_attributes></element><element><id>Relation</id><coordinates><x>130</x><y>580</y><w>110</w><h>90</h></coordinates><panel_attributes>lt=&lt;-
+  Visualiza
+  resultados</panel_attributes><additional_attributes>90;70;10;70;10;10;90;10</additional_attributes></element><element><id>UMLFrame</id><coordinates><x>150</x><y>670</y><w>450</w><h>140</h></coordinates><panel_attributes>Opt
+--
+
+
+Pulsa generar pdf</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>230</x><y>680</y><w>230</w><h>50</h></coordinates><panel_attributes>lt=&lt;-
+Petición de 
+descarga</panel_attributes><additional_attributes>210;20;10;20</additional_attributes></element><element><id>UMLGeneric</id><coordinates><x>440</x><y>700</y><w>20</w><h>80</h></coordinates><panel_attributes>
+bg=red</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>450</x><y>700</y><w>150</w><h>80</h></coordinates><panel_attributes>lt=&lt;-
+ Rellena la
+ plantilla</panel_attributes><additional_attributes>10;60;70;60;70;10;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>230</x><y>760</y><w>230</w><h>50</h></coordinates><panel_attributes>lt=&lt;-
+Genera la
+descarga</panel_attributes><additional_attributes>10;20;210;20</additional_attributes></element></diagram>
