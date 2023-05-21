@@ -9,3 +9,5 @@ Para la creación de la página hemos elegido un diseño one page (Una sola pág
 - La *base de datos* elegida será la opción realtime, la cual nos proveerá los datos en tiempo real, y cuando un usuario en cualquier parte del mundo cree un personaje u otro elemento, instantáneamente los demás usuarios tendrán acceso a ello.
 
 - El *sistema de login* de Firebase nos proveerá una api de inicio de sesión la cual generará los inicios de sesión automáticamente, o si el usuario lo prefiere, podrá iniciar sesión con google o microsoft.
+
+- [Mapas de navegación](https://drive.google.com/file/d/12EA0onIo6ka07ZVRj_Nar5fMeg8vSjm8/view). 
